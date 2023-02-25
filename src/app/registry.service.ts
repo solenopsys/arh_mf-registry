@@ -6,7 +6,7 @@ import { HttpClient } from "@angular/common/http";
   providedIn: "root"
 })
 export class RegistryService {
-  retistryUrl="https://registry.alexstorm.solenopsys.org"
+  retistryUrl="https://registry.richteri.solenopsys.org"
 
   constructor(private client: HttpClient) {}
 

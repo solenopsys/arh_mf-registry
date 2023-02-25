@@ -104,7 +104,7 @@ module.exports = {
     }),
     iconPlug(
       'packages/fui/icons/src',
-      'dist/modules/alexstorm/registry',
+      'dist/modules/richteri/registry',
       'packages/modules/registry/src/assets/menu.json'
     ),
     sharedMappings.getPlugin(),

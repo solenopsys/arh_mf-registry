@@ -12,7 +12,7 @@ const routes: Routes = [
 
 export const PROVIDERS_CONF = [
   {provide: 'tables', useValue: TABLES},
-  {provide: 'assets_dir', useValue: "/fm/modules/alexstorm/registry"},
+  {provide: 'assets_dir', useValue: "/fm/modules/richteri/registry"},
   {provide: 'mod_name', useValue: "registry"}
 ]
 
