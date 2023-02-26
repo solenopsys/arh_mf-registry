@@ -2,7 +2,7 @@ import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 
 import { RouterModule, Routes } from "@angular/router";
-import { BootstrapComponent, TABLE_PAGE } from "@solenopsys/uimatrix-templates";
+import { BootstrapComponent, TABLE_PAGE } from "@solenopsys/ui-templates";
 import { FormsModule } from "@angular/forms";
 import { TABLES } from "./tables.config";
 
