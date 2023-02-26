@@ -1,4 +1,4 @@
-import {DataPageConfig, FieldType} from "@solenopsys/lib-dgraph";
+import {DataPageConfig, FieldType} from "@solenopsys/fl-dgraph";
 import {RegistryDataProvider} from "./git-data-provider.service";
 
 export const CONTAINERS: DataPageConfig = {
