@@ -48,7 +48,7 @@ module.exports = {
       name: 'registry',
       filename: 'remoteEntry.js',
       exposes: {
-        './Module': 'packages/modules/registry/src/app/entry.module.ts',
+        './Module': 'packages/modules/mf-registry/src/app/entry.module.ts',
       },
       shared: share({
         '@angular/core': {
@@ -104,8 +104,8 @@ module.exports = {
     }),
     iconPlug(
       'packages/fui/icons/src',
-      'dist/modules/richteri/registry',
-      'packages/modules/registry/src/assets/menu.json'
+      'dist/modules/mf-richteri/registry',
+      'packages/modules/mf-registry/src/assets/menu.json'
     ),
     sharedMappings.getPlugin(),
   ],

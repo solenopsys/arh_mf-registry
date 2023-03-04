@@ -1,5 +1,5 @@
 {
-  "name": "@solenopsys/sc-fm-registry-invicta",
+  "name": "@solenopsys/mf-registry",
   "version": "0.9.1",
   "scripts": {
     "test": "node index.js",
