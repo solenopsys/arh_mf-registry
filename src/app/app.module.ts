@@ -12,7 +12,7 @@ const routes: Routes = [
 
 export const PROVIDERS_CONF = [
   {provide: 'tables', useValue: TABLES},
-  {provide: 'assets_dir', useValue: "/fm/modules/mf-richteri/registry"},
+  {provide: 'assets_dir', useValue: "/fm/modules/mf-registry"},
   {provide: 'mod_name', useValue: "registry"}
 ]
 
